@@ -4,7 +4,8 @@ import { useEffect, useState } from "react"
 import { useParams } from "next/navigation"
 import { supabase } from "@/lib/supabase"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-
+import { Navbar } from "@/components/navbar"
+import { Footer } from "@/components/footer"
 
 type Product = {
   id: string
@@ -233,12 +234,14 @@ export default function ProductDetails() {
                   </div>
                 )
               })}
-              
+              <Navbar />
 
           </div>
         )}
 
       </div>
+      <Footer />
     </div>
   )
 }
+
