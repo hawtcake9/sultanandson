@@ -164,7 +164,7 @@ export default function ProductDetails() {
 
             <div className="flex gap-4 pt-6">
               <a
-                href={`https://wa.me/923000000000?text=${encodeURIComponent(
+                href={`https://wa.me/923459012298?text=${encodeURIComponent(
                   `I am interested in ${product.name}`
                 )}`}
                 target="_blank"
@@ -244,4 +244,5 @@ export default function ProductDetails() {
     </div>
   )
 }
+
 
