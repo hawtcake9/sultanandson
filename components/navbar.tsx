@@ -108,7 +108,7 @@ export function Navbar() {
             </Link>
 
             <Link
-              href="/contact"
+              href="/https://wa.me/923459012298"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block w-full px-6 py-3 rounded-full bg-white text-black font-bold text-center mt-6"
             >
