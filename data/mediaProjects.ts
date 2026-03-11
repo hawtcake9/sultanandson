@@ -1,10 +1,9 @@
-
 export const MEDIA_PROJECTS = [
   {
     slug: "solar-energy",
     title: "Solar Energy Initiative",
     description:
-      "Complete solar inverter installation with hybrid battery system and advanced monitoring for residential power management.",
+      "Complete solar inverter installation project with hybrid energy system and smart monitoring.",
     images: [
       "/images/gallery1.jpeg",
       "/images/gallery2.jpeg",
@@ -33,4 +32,4 @@ export const MEDIA_PROJECTS = [
       "/images/gallery9.jpeg",
     ],
   },
-];
+]
