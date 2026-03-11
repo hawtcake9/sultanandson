@@ -24,6 +24,7 @@ export default function MediaProjectClient({ project }: any) {
 
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
 
+          {/* Image Slider */}
           <div className="space-y-4">
 
             <div className="relative bg-white rounded-xl shadow-lg overflow-hidden">
@@ -49,15 +50,32 @@ export default function MediaProjectClient({ project }: any) {
 
             </div>
 
+            {/* Thumbnails */}
+            <div className="flex gap-3 justify-center flex-wrap">
+
+              {project.images.map((img:any,i:number)=>(
+                <img
+                  key={i}
+                  src={img}
+                  onClick={()=>setIndex(i)}
+                  className={`h-20 w-20 object-cover rounded cursor-pointer border-2 ${
+                    i===index ? "border-blue-600":"border-transparent"
+                  }`}
+                />
+              ))}
+
+            </div>
+
           </div>
 
+          {/* Description */}
           <div className="space-y-6">
 
             <h1 className="text-4xl font-bold">
               {project.title}
             </h1>
 
-            <p className="text-gray-600">
+            <p className="text-gray-600 leading-relaxed">
               {project.description}
             </p>
 
