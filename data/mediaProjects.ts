@@ -1,4 +1,11 @@
-export const MEDIA_PROJECTS = [
+export type MediaProject = {
+  slug: string
+  title: string
+  description: string
+  images: string[]
+}
+
+export const MEDIA_PROJECTS: MediaProject[] = [
   {
     slug: "solar-energy",
     title: "Solar Energy Initiative",
