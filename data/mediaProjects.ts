@@ -19,9 +19,9 @@ export const MEDIA_PROJECTS: MediaProject[] = [
   },
   {
     slug: "partnership-celebration",
-    title: "Partnership Celebration",
+    title: "50 KW Industrial State Peshawar",
     description:
-      "Strategic partnership signing ceremony between Sultan & Sons and renewable energy partners.",
+      "Mon, 24 Nov 2025 - 12:00 Solar Installations Showcase Located in [City/Area Name], this solar inverter installation project demonstrates our commitment to delivering efficient and reliable renewable energy solutions. The system is designed to maximize energy output while ensuring long-term performance. Explore the images to see the installation process, system setup, and the final outcome of our work",
     images: [
       "/images/gallery4.jpeg",
       "/images/gallery5.jpeg",
