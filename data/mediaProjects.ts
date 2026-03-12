@@ -21,7 +21,7 @@ export const MEDIA_PROJECTS: MediaProject[] = [
     slug: "partnership-celebration",
     title: "50 KW Industrial State Peshawar",
     description:
-      "Mon, 24 Nov 2025 - 12:00 Solar Installations Showcase Located in [City/Area Name], this solar inverter installation project demonstrates our commitment to delivering efficient and reliable renewable energy solutions. The system is designed to maximize energy output while ensuring long-term performance. Explore the images to see the installation process, system setup, and the final outcome of our work",
+      "Mon, 24 Nov 2025 - 12:00 Solar Installations Showcase Located in Industrial State Peshawar, this solar inverter installation project demonstrates our commitment to delivering efficient and reliable renewable energy solutions. The system is designed to maximize energy output while ensuring long-term performance. Explore the images to see the installation process, system setup, and the final outcome of our work",
     images: [
       "/images/gallery4.jpeg",
       "/images/gallery5.jpeg",
@@ -34,14 +34,14 @@ export const MEDIA_PROJECTS: MediaProject[] = [
   },
   {
     slug: "branch-opening",
-    title: "Branch Opening Event",
+    title: "30 KW Inverter Setup Peshawar",
     description:
-      "Grand opening celebration of our new branch with team members and partners.",
+      "Tue, 25 Nov 2025 - 12:00 Solar Installations Showcase Located in Peshawar, this solar inverter installation project demonstrates our commitment to delivering efficient and reliable renewable energy solutions. The system is designed to maximize energy output while ensuring long-term performance. Explore the images to see the installation process, system setup, and the final outcome of our work",
     images: [
-      "/images/gallery8.jpeg",
-      "/images/gallery9.jpeg",
-      "/images/gallery10.jpeg",
       "/images/gallery11.jpeg",
+      "/images/gallery12.jpeg",
+      "/images/gallery13.jpeg",
+      "/images/gallery14.jpeg",
     ],
   },
 ]
