@@ -70,7 +70,7 @@ export function Navbar() {
             <NavLink href="/dealers" label="Where to Buy" />
 
             <Link
-              href="/https://wa.me/923459012298"
+              "
               className="px-6 py-2 rounded-full bg-[#333333] text-white font-bold text-sm hover:bg-[#555555] transition"
             >
               Contact Us
