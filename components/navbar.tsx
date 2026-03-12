@@ -70,7 +70,7 @@ export function Navbar() {
             <NavLink href="/dealers" label="Where to Buy" />
 
             <Link
-              "
+                href=""
               className="px-6 py-2 rounded-full bg-[#333333] text-white font-bold text-sm hover:bg-[#555555] transition"
             >
               Contact Us
@@ -108,7 +108,7 @@ export function Navbar() {
             </Link>
 
             <Link
-              href="/https://wa.me/923459012298"
+              href=""
               onClick={() => setIsMobileMenuOpen(false)}
               className="block w-full px-6 py-3 rounded-full bg-white text-black font-bold text-center mt-6"
             >
