@@ -3,6 +3,7 @@ export type MediaProject = {
   title: string
   description: string
   images: string[]
+  video?: string
 }
 
 export const MEDIA_PROJECTS: MediaProject[] = [
@@ -16,6 +17,7 @@ export const MEDIA_PROJECTS: MediaProject[] = [
       "/images/gallery2.jpeg",
       "/images/gallery3.jpeg",
     ],
+    video: "/videos/solar-energy.mp4",
   },
   {
     slug: "partnership-celebration",
@@ -31,6 +33,7 @@ export const MEDIA_PROJECTS: MediaProject[] = [
       "/images/gallery9.jpeg",
       "/images/gallery10.jpeg",
     ],
+    video: "/videos/solar-energy.mp4",
   },
   {
     slug: "branch-opening",
