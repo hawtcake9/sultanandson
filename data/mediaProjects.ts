@@ -27,6 +27,8 @@ export const MEDIA_PROJECTS: MediaProject[] = [
       "/images/gallery5.jpeg",
       "/images/gallery6.jpeg",
       "/images/gallery7.jpeg",
+      "/images/gallery8.jpeg",
+      "/images/gallery9.jpeg",
     ],
   },
   {
