@@ -109,7 +109,7 @@ export function Navbar() {
 
             <Link
               href={`https://wa.me/923459012298?text=I am interested in ${product.name}`}
-              target="_blank"
+              onClick={() => setIsMobileMenuOpen(false)}
               className="block w-full px-6 py-3 rounded-full bg-white text-black font-bold text-center mt-6"
             >
               Contact Us
