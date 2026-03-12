@@ -36,6 +36,9 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  const whatsappLink =
+    "https://wa.me/923459012298?text=Hello%20I%20am%20interested%20in%20Sultan%20%26%20Sons%20solar%20inverter%20products."
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -46,7 +49,7 @@ export function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 md:px-8">
         <div className="flex items-center justify-between h-20">
-          
+
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <div className="w-12 h-12 rounded-lg bg-gray-100 flex items-center justify-center overflow-hidden">
@@ -56,6 +59,7 @@ export function Navbar() {
                 className="w-full h-full object-cover"
               />
             </div>
+
             <span className="hidden sm:inline font-bold text-base text-[#333333] tracking-wider">
               SULTAN & SONS
             </span>
@@ -69,12 +73,15 @@ export function Navbar() {
             <NavLink href="/media" label="Media" />
             <NavLink href="/dealers" label="Where to Buy" />
 
-            <Link
-                href=""
+            {/* WhatsApp Button */}
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-6 py-2 rounded-full bg-[#333333] text-white font-bold text-sm hover:bg-[#555555] transition"
             >
               Contact Us
-            </Link>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -84,6 +91,7 @@ export function Navbar() {
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
+
         </div>
       </div>
 
@@ -91,29 +99,58 @@ export function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-black/90 min-h-screen fixed top-20 left-0 right-0 z-40">
           <div className="px-6 py-8 space-y-6">
-            <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="block text-white font-bold">
+
+            <Link
+              href="/"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-white font-bold"
+            >
               Home
-            </Link>
-            <Link href="/about" onClick={() => setIsMobileMenuOpen(false)} className="block text-white font-bold">
-              About
-            </Link>
-            <Link href="/products" onClick={() => setIsMobileMenuOpen(false)} className="block text-white font-bold">
-              Products
-            </Link>
-            <Link href="/media" onClick={() => setIsMobileMenuOpen(false)} className="block text-white font-bold">
-              Media
-            </Link>
-            <Link href="/dealers" onClick={() => setIsMobileMenuOpen(false)} className="block text-white font-bold">
-              Where to Buy
             </Link>
 
             <Link
-              href={`https://wa.me/923459012298?text=I am interested in ${product.name}`}
+              href="/about"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-white font-bold"
+            >
+              About
+            </Link>
+
+            <Link
+              href="/products"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-white font-bold"
+            >
+              Products
+            </Link>
+
+            <Link
+              href="/media"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-white font-bold"
+            >
+              Media
+            </Link>
+
+            <Link
+              href="/dealers"
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="block text-white font-bold"
+            >
+              Where to Buy
+            </Link>
+
+            {/* Mobile WhatsApp Button */}
+            <a
+              href={whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block w-full px-6 py-3 rounded-full bg-white text-black font-bold text-center mt-6"
             >
               Contact Us
-            </Link>
+            </a>
+
           </div>
         </div>
       )}
