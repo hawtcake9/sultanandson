@@ -17,7 +17,7 @@ export const MEDIA_PROJECTS: MediaProject[] = [
       "/images/gallery2.jpeg",
       "/images/gallery3.jpeg",
     ],
-    video: "/videos/solar-energy.mp4",
+    video: "/images/solar-energy.mp4",
   },
   {
     slug: "partnership-celebration",
@@ -33,7 +33,7 @@ export const MEDIA_PROJECTS: MediaProject[] = [
       "/images/gallery9.jpeg",
       "/images/gallery10.jpeg",
     ],
-    video: "/videos/solar-energy.mp4",
+    video: "/images/solar-energy2.mp4",
   },
   {
     slug: "branch-opening",
